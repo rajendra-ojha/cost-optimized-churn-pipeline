@@ -1,4 +1,4 @@
-# 🚀 Enterprise Customer Churn Prediction Engine
+# Enterprise Customer Churn Prediction Engine
 
 > An end-to-end, cost-aware machine learning system for predicting telecom customer churn and prioritizing high-risk customers for retention.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 Customer retention is one of the most important challenges in the telecommunications industry.
 
@@ -35,7 +35,6 @@ Instead of simply predicting whether a customer will churn, this project builds 
 - Provides a real-time web interface through FastAPI
 
 The goal is to move from:
-
 ```text
 Raw Customer Data
         ↓
