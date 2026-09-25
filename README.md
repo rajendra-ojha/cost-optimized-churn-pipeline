@@ -163,7 +163,7 @@ F1 Score
 ROC-AUC
 Confusion Matrix
 ```
-# 🛠️ Tech Stack
+# Tech Stack
 
 ## 🧠 Machine Learning & Data Science
 
@@ -241,24 +241,24 @@ Confusion Matrix
 | 🔗 **Fetch API** | Communication between frontend and FastAPI backend |
 
 
-## 🔄 System Architecture
+## System Architecture
 
 ```text
-                    👤 User
+                     User
                       │
                       ▼
-              🎨 HTML / CSS / JS
+              HTML / CSS / JS
                       │
                       │ Fetch API
                       ▼
-                ⚡ FastAPI
+                FastAPI
                       │
                       ▼
-               ✅ Pydantic
-               Validation
+                  Pydantic
+                  Validation
                       │
                       ▼
-              🤖 ML Pipeline
+                  ML Pipeline
                       │
           ┌───────────┼───────────┐
           │           │           │
@@ -269,12 +269,29 @@ Confusion Matrix
           └───────────┼───────────┘
                       │
                       ▼
-                🔍 SHAP
+                    SHAP
               Explainability
                       │
                       ▼
-             📈 Churn Probability
+                Churn Probability
                       │
                       ▼
-              🎯 Risk Prediction
-              
+               Risk Prediction
+```    
+## Repository Structure :
+```text
+├── data/
+│   └── telco_churn.csv              # Raw Kaggle Dataset
+├── models/
+│   └── churn_pipeline.joblib        # Serialized ML Pipeline (Generated)
+├── static/
+│   ├── index.html                   # Dashboard UI
+│   ├── style.css                    # Glassmorphism styling
+│   └── script.js                    # Dynamic DOM handling & API requests
+├── app.py                           # FastAPI Server & Inference Endpoint
+├── train.py                         # End-to-End Training & Evaluation Script
+└── requirements.txt                 # Project Dependencies
+```
+## Connect :
+Built by Rajendra Kumar Ojha – Open to software engineering and AI/ML opportunities.
+[[LinkedIn Profile]](https://www.linkedin.com/in/rajendra-kumar-ojha-45b47830b/)
